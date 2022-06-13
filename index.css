@@ -1,0 +1,362 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body 
+{
+    overflow: hidden;
+} */
+.port_container 
+{
+  background-image : url("./image/61764.jpg");
+  height:100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-position: center;
+  background-size: cover;
+}
+.port_container .port-top 
+{
+
+   display: flex;
+   width: 29.5%;
+   float: right; 
+   margin-right: 10rem;
+   justify-content : space-between;
+   justify-items: center;
+   margin-top: 3rem;
+   font-family: "Sofia", sans-serif;
+}
+.port_container .port-top .port_list 
+{
+position: relative;
+ list-style: none;
+}
+.port_container .port-top  a
+{
+
+ text-decoration: none;
+ color:white;
+ font-size: 1.3rem;
+}
+.port_container .port-top  .port_select
+{
+background-color: white;
+width: 20%;
+height: 2rem;
+font-family: "Trirong", serif;
+}
+.port_container .port-top  .port_select option
+{
+text-align: center;
+}
+
+.port_container .port-main-text .porting-text .port-text
+{
+    
+     padding: 4rem;
+     margin-top: 5rem;
+     font-size: 3rem;
+   color: white;
+   width: 100%;
+  
+    
+}
+
+.port_container .port-main-text .porting-text .career 
+{
+    color: #6ff9e0;
+    
+    
+}
+.port_container .port-main-text .porting-text .gain 
+{
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+.port_container .port-main-text .porting-text button 
+{
+    width: 20%;
+    height: 7vh;
+     position: relative;
+     bottom: 4rem;
+     left: 4rem;
+     border: none;
+     background-color: #6ff9e0;
+     border-radius: 5px;
+} 
+.port_container .img 
+{
+   
+    position: absolute;
+    left: 45rem;
+    bottom: 1rem;
+   
+    
+}
+.port_container .img img 
+{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    
+}
+
+.port-about 
+{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+} 
+.port-about-p
+{
+ text-align: center;
+ margin-top: 2rem;
+ color: orangered;
+ font-size: 1rem;
+ font-family: "Audiowide", sans-serif;
+ width: 100%;
+}
+.port-about img 
+{
+    height: 50vh;
+    width: 100%;
+}
+.port-about .port-about-h2 
+{
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin-top: 4rem;
+    font-family: 'Joan', serif;
+    margin-right: 8rem;
+    width: 100%;
+   
+}
+
+.php .port-skill 
+
+{
+ display: inline-block;
+ justify-content: center;
+ justify-items: center;
+ margin-left: 7rem;
+ width: 15%;
+ margin-top: 4rem;
+
+
+
+}
+.port-front 
+{
+ text-align: center;
+ font-size: 12px;
+ font-family: "Spline Sans Mono", sans-serif;
+}
+/* .php .port-skill
+{
+    background-color: blue;
+  
+} */
+.php .port-skill img 
+{
+    height: 20vh;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+
+.port-experience 
+{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    position: relative;
+}
+.port-experience  img 
+{
+    height: 70vh;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.port-experience .exp-port 
+{
+    font-size: 1rem;
+    margin-top: 5rem;
+    margin-right: 10rem;
+    font-family: "Fjalla One", sans-serif;
+    width: 100%;
+}
+
+.qualifications-port
+{
+    display: block;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    position: relative;
+}
+.qualifications-port  img 
+{
+    height: 60vh;
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.qualifications-port  .qualif-port
+{
+   text-align: center;
+   font-size: 1rem;
+   font-family: "Fjalla One", sans-serif;
+   
+}
+
+/* .social 
+{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    width: 20%;
+    margin-left: 35rem;
+}
+.social i 
+{
+    background-color: blue;
+} */
+/* media queries */
+
+@media screen and (max-width: 1200px) {
+    .port_container 
+{
+   
+    width: 100%;
+    height: 100vh;
+}
+.port_container .port-top 
+{
+    display: none;
+}
+.port-about .port-about-h2 
+{
+    font-size: 1rem;
+    width: 100%;
+   padding: 0.5rem;
+   
+}
+.port-about 
+{
+    display: block;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 1rem;
+} 
+/* .port_container .port-top 
+{
+
+   display: none;
+  
+} */
+.port_container .img 
+{
+   
+ display:block;
+   
+    
+}
+.port_container .img 
+{
+   
+    position: absolute;
+    left: 50rem;
+    bottom: 2rem;
+   
+    
+}
+.port_container .img img 
+{
+    height: 50vh;
+    width: 50vh;
+    border-radius: 50%;
+    
+}
+.port_container .port-main-text .porting-text .port-text
+{
+    
+     padding: 1rem;
+     margin-top: 8.5rem;
+     font-size: 2rem;
+   color: white;
+    
+}
+.gain 
+{
+    display: none;
+}
+    
+    .port_container .img 
+    {
+       
+     display: none;
+       
+        
+    }
+    .port-about 
+{
+    display: block;
+    justify-content: space-between;
+    justify-items: center;
+    padding: 1rem;
+} 
+.port_container .port-main-text .porting-text button 
+{
+    width: 70%;
+    height: 7vh;
+     position: relative;
+     top: 0;
+     right: 10rem;
+     border: none;
+     background-color: #6ff9e0;
+     border-radius: 5px;
+} 
+.php .port-skill 
+
+{
+ display:block;
+ justify-content: center;
+ justify-items: center;
+ margin-left: 2rem;
+ width: 80%;
+ height: 20vh;
+ margin-top: 4rem;
+
+
+}
+.port-experience 
+{
+    display: block;
+    padding: 1rem;
+
+}
+.port-experience  .exp-port 
+{
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+   
+    
+}
+.qualifications-port  .qualif-port
+{
+   text-align: center;
+   font-size: 1rem;
+   padding: 1rem;
+   
+}
+
+}
