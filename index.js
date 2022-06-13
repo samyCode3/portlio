@@ -5,4 +5,5 @@ about.addEventListener("click", (e) =>
 {
      e.preventDefault();  
      aboutPort.scrollIntoView();
+     console.log("hdbjdb")
 })
