@@ -3,360 +3,367 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Sofia", sans-serif;
 }
-/* body 
+body 
 {
-    overflow: hidden;
-} */
-.port_container 
-{
-  background-image : url("./image/61764.jpg");
-  height:100vh;
-  width: 100%;
-  background-repeat: no-repeat;
-  top: 0;
-  left: 0;
-  z-index: -2;
-  background-position: center;
-  background-size: cover;
+    background-color: black;
 }
+
 .port_container .port-top 
 {
 
    display: flex;
-   width: 29.5%;
+   width: 30.5%;
    float: right; 
    margin-right: 10rem;
    justify-content : space-between;
    justify-items: center;
-   margin-top: 3rem;
-   font-family: "Sofia", sans-serif;
+   margin-top: 1rem;
+  
+
 }
 .port_container .port-top .port_list 
 {
 position: relative;
- list-style: none;
+ 
 }
 .port_container .port-top  a
 {
 
- text-decoration: none;
  color:white;
- font-size: 1.3rem;
-}
-.port_container .port-top  .port_select
-{
-background-color: white;
-width: 20%;
-height: 2rem;
-font-family: "Trirong", serif;
-}
-.port_container .port-top  .port_select option
-{
-text-align: center;
-}
-
-.port_container .port-main-text .porting-text .port-text
-{
-    
-     padding: 4rem;
-     margin-top: 5rem;
-     font-size: 3rem;
-   color: white;
-   width: 100%;
-  
-    
-}
-
-.port_container .port-main-text .porting-text .career 
-{
-    color: #6ff9e0;
-    
-    
-}
-.port_container .port-main-text .porting-text .gain 
-{
-    font-size: 0.9rem;
-    margin-bottom: 2rem;
-}
-.port_container .port-main-text .porting-text button 
-{
-    width: 20%;
-    height: 7vh;
-     position: relative;
-     bottom: 4rem;
-     left: 4rem;
-     border: none;
-     background-color: #6ff9e0;
-     border-radius: 5px;
-} 
-.port_container .img 
-{
-   
-    position: absolute;
-    left: 45rem;
-    bottom: 1rem;
-   
-    
-}
-.port_container .img img 
-{
-    height: 50vh;
-    width: 50vh;
-    border-radius: 50%;
-    
-}
-
-.port-about 
-{
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-} 
-.port-about-p
-{
- text-align: center;
- margin-top: 2rem;
- color: orangered;
  font-size: 1rem;
- font-family: "Audiowide", sans-serif;
- width: 100%;
 }
-.port-about img 
-{
-    height: 50vh;
-    width: 100%;
-}
-.port-about .port-about-h2 
-{
-    font-size: 0.8rem;
-    font-weight: 100;
-    margin-top: 4rem;
-    font-family: 'Joan', serif;
-    margin-right: 8rem;
-    width: 100%;
-   
-}
-
-.php .port-skill 
-
-{
- display: inline-block;
- justify-content: center;
- justify-items: center;
- margin-left: 7rem;
- width: 15%;
- margin-top: 4rem;
-
-
-
-}
-.port-front 
-{
- text-align: center;
- font-size: 12px;
- font-family: "Spline Sans Mono", sans-serif;
-}
-/* .php .port-skill
-{
-    background-color: blue;
-  
-} */
-.php .port-skill img 
-{
-    height: 20vh;
-    width: 100%;
-    border-radius: 5px;
-   
-}
-
-.port-experience 
-{
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    width: 100%;
-    position: relative;
-}
-.port-experience  img 
-{
-    height: 70vh;
-    width: 100%;
-    border-radius: 5px;
-   
-}
-.port-experience .exp-port 
-{
-    font-size: 1rem;
-    margin-top: 5rem;
-    margin-right: 10rem;
-    font-family: "Fjalla One", sans-serif;
-    width: 100%;
-}
-
-.qualifications-port
-{
-    display: block;
-    justify-content: center;
-    justify-items: center;
-    width: 100%;
-    position: relative;
-}
-.qualifications-port  img 
-{
-    height: 60vh;
-    width: 100%;
-    border-radius: 5px;
-   
-}
-.qualifications-port  .qualif-port
-{
-   text-align: center;
-   font-size: 1rem;
-   font-family: "Fjalla One", sans-serif;
-   
-}
-
-/* .social 
-{
-    display: flex;
-    justify-content: space-between;
-    justify-items: center;
-    width: 20%;
-    margin-left: 35rem;
-}
-.social i 
-{
-    background-color: blue;
-} */
-/* media queries */
-
-@media screen and (max-width: 1200px) {
-    .port_container 
-{
-   
-    width: 100%;
-    height: 100vh;
-}
-.port_container .port-top 
+.port_container .port-top  i 
 {
     display: none;
 }
-.port-about .port-about-h2 
+.port_container .name-text .texter
 {
-    font-size: 1rem;
-    width: 100%;
-   padding: 0.5rem;
-   
-}
-.port-about 
-{
-    display: block;
+    color: white;
+    display: flex;
     justify-content: space-between;
-    justify-items: center;
-    padding: 1rem;
-} 
-/* .port_container .port-top 
+    align-items: center;
+     margin: 3rem;
+}
+.port_container .name-text .texter .soft-name
+{
+ color: rgba(255, 255, 255, 0.677);
+
+}
+.port_container .name-text .texter .soft-name-2
+{
+ color: rgba(0, 0, 255, 0.49);
+ font-size: 3rem;
+}
+
+.name-text button 
+{
+    position: absolute;
+    margin-top: 17rem;
+    border: none;
+    height: 5vh;
+    width:20%;
+    background-color: rgba(17, 17, 195, 0.719);
+    color: white;
+    
+}
+.port_container .name-text .img-text img 
+{
+ width: 100%;
+ height: 70vh;
+ margin-left: 25rem;
+ margin-top: 7rem;
+
+}
+.section-container .section-pic 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-container .section-pic img
+{
+   
+    width: 30%;
+    height: 60vh;
+    border-radius: 50%;
+}
+.section-container .port-about-p 
+{
+    color: orangered;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 3rem;
+}
+section .section-container .port-about 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .section-container .port-about img
+{
+   width: 100%;
+   height: 70vh;
+   border: 1px solid black;
+   border-radius: 50%;
+}
+section .section-container .port-about .port-about-h2
+{
+   color: rgba(255, 255, 255, 0.738);
+   font-size: 2vh;
+   margin-top: 2rem;
+  
+}
+section .section-container .port-about .port-about-h2 .about-me
+{
+    color: orangered;
+    font-size: 4vh;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+.port-about-p 
+{
+   
+    color: orangered;
+    text-align: center;
+    font-size: 3vh;
+    margin-top: 3rem; 
+}
+.port-skills .php
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+section .port-skills .php img 
+{
+    width: 80%;
+    height: 30vh;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+.port-skill h4 
+{
+ color: orangered;
+ text-align: center;
+}
+.port-skilles .php
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+
+section .port-skilless .php img 
+{
+    width: 80%;
+    height: 30vh;
+    margin-top: 2rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2rem;
+}
+.port-skill h4 
+{
+ color: orangered;
+ text-align: center;
+}
+
+section .myTool .Use .tool
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.421);
+    box-shadow: 2px 1px 1px 2px;
+    height:6rem;
+    width: 6rem;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+section .myTool .Use .tool p 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2.5rem; 
+    
+}
+.port-experience img
+{
+ width: 100%;
+ height: 70vh;
+
+}
+.port-experience
+{
+    display: flex;
+}
+.port-experience p
+{
+ width: 80%;
+ color: rgba(255, 255, 255, 0.515);
+ margin-top: 2rem;
+
+}
+footer 
+{
+    background-color: rgba(49, 49, 49, 0.704);
+    height: 6rem;
+}
+.social {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 40%;
+  margin-left: 26rem;
+  font-size: 3vh;
+
+}
+.social a i
+{
+  color: white;
+  margin-top: 2rem;
+  
+  
+}
+@media screen and (max-width: 760px) {
+/* body
+{
+    overflow:hidden; 
+} */
+.port_container .port-top 
+{
+
+   display: block;
+
+
+}
+
+.port_container .name-text .texter
+{
+    color: white;
+    display: block;
+    margin: 1rem;
+    margin-top: 6rem;
+}
+
+.port_container .port-top 
 {
 
    display: none;
-  
-} */
-.port_container .img 
-{
-   
- display:block;
-   
-    
+
+
 }
-.port_container .img 
+.port_container .name-text .img-text img 
 {
-   
+ width: 100%;
+ height: 70vh;
+ margin-left: 0rem;
+ margin-top: 7rem;
+
+}
+.port_container .name-text .texter .soft-name-2
+{
+ color: rgba(0, 0, 255, 0.49);
+ font-size: 2rem;
+}
+.name-text button 
+{
     position: absolute;
-    left: 50rem;
-    bottom: 2rem;
-   
+    margin-top: 2rem;
+    border: none;
+    height: 5vh;
+    width:40%;
     
 }
-.port_container .img img 
-{
-    height: 50vh;
-    width: 50vh;
-    border-radius: 50%;
-    
-}
-.port_container .port-main-text .porting-text .port-text
-{
-    
-     padding: 1rem;
-     margin-top: 8.5rem;
-     font-size: 2rem;
-   color: white;
-    
-}
-.gain 
-{
-    display: none;
-}
-    
-    .port_container .img 
-    {
-       
-     display: none;
-       
-        
-    }
-    .port-about 
+.port-about-h2 
 {
     display: block;
-    justify-content: space-between;
-    justify-items: center;
-    padding: 1rem;
-} 
-.port_container .port-main-text .porting-text button 
-{
-    width: 70%;
-    height: 7vh;
-     position: relative;
-     top: 0;
-     right: 10rem;
-     border: none;
-     background-color: #6ff9e0;
-     border-radius: 5px;
-} 
-.php .port-skill 
-
-{
- display:block;
- justify-content: center;
- justify-items: center;
- margin-left: 2rem;
- width: 80%;
- height: 20vh;
- margin-top: 4rem;
-
-
-}
-.port-experience 
-{
-    display: block;
-    padding: 1rem;
-
-}
-.port-experience  .exp-port 
-{
-    font-size: 1rem;
-    padding: 1rem;
     width: 100%;
+}
+section .section-container .port-about 
+{
+    display: block;
+   margin-left: 3vh;
+}
+.section-container .section-pic 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-container .section-pic img
+{
    
+    width: 100%;
+    height: 60vh;
+    border-radius: 50%;
+}
+.port-skills .php
+{
+    display: block;
+    /* justify-content: center;
+    align-items: center;
+    margin-left: 3.5rem; */
+
+}
+section .port-skills .php img 
+{
+    width: 100%;
+    height: 30vh;
+    /* margin-top: 2rem;
+    border: none;
+    border-radius: 5px; */
+    margin-left: 0;
+}
+section .myTool .Use .tool
+{
+    display: inline-block;
+
+}
+.port-experience
+{
+    display: block;
+    width: 100%;
     
 }
-.qualifications-port  .qualif-port
+.port-experience p
 {
-   text-align: center;
-   font-size: 1rem;
-   padding: 1rem;
-   
+    
+    width: 80%;
+    margin-left: 1rem;
+    margin-top: 2rem;
 }
+footer 
+{
+    background-color: rgba(49, 49, 49, 0.704);
+    height: 6rem;
+    width: 100%;
+}
+.social {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+  width: 60%;
+  margin-left: 5rem;
+  font-size: 3vh;
 
+}
 }
