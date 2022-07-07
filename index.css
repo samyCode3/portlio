@@ -244,6 +244,43 @@ footer
   
   
 }
+.project 
+{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   padding: 0 5rem;
+}
+.pro_view img
+{
+ height: 40vh;
+ width: 100%;
+ margin-top: 2rem;
+
+}
+.project h3
+{
+    color: white;
+    
+}
+.project a 
+{
+    background-color: orangered;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    height: 2rem;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    border: none;
+}
 @media screen and (max-width: 1200px) {
 body
 {
