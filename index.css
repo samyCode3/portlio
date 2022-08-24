@@ -274,7 +274,8 @@ main {
     }
 
     .myImg {
-        width: 60%;
+        width: 100%;
+        
     }
     .address-wrap {
        flex-direction: column;
@@ -284,5 +285,8 @@ main {
         gap: 2vh;
 }
 
-    
+.flex-wrap-project img
+{
+  width:100%;
+} 
 }
