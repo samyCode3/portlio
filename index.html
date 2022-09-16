@@ -1,178 +1,268 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="./css/all.min.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advance jarvis code</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/all.css">
-  </head>
+</head>
 
-  <body>
-    <div class="main-container">
-     <header>
-  
-        <div class="flex-sub" dir="rtl">
-        <a href>Home</a>
-        <a href="github.com/samyCode03">Github</a>
-        <a href>Project</a>
-        <a href>About me</a>
-      </div>
-     </header>
-     <div class="info">
-       <div class="info-flex-sub">
-        <div class="pre">
-        <pre>
-          <h3 style="font-size: 2rem;">Hi, I am <br>Samson Adeboyega<br><small style="color:rgba(255, 255, 255, 0.766); font-size: 0.7rem;">Fullstack/Backend Developer</small></h3>
-        </pre>
-        <div class="link"><a href="Resume.docx">Download Resume</a></div>
-      </div>
-        <div class="image">
-          <img class="MyImg" src="./demo.jpg" height="350px" width="350px">
-        </div>
-       </div>
+<body>
+    <header>
+        <div class="header_div">
 
-     </div>
-     <div class="skill">
-      <div class="skill-flex">
-        <div class="skill1">
-          <h1>Html</h1>
-        </div>
-        <div class="skill1">
-          <h1>Css</h1>
-        </div>
-        <div class="skill1">
-          <h1>Javascript</h1>
-        </div>
-        <div class="skill1">
-          <h1>NodeJs</h1>
-        </div>
-        <div class="skill1">
-          <h1>Php</h1>
-        </div>
-        <div class="skill1">
-          <h1>Mysql</h1>
-        </div>
-      </div>
+            <div class="header_container" id="home">
+                <img src="./img/computer.png" class="header_img" alt="" srcset="">
+                <div class="header_sub_container">
+                    <p id="p_home">Home</p>
+                    <p id="p_works">Works</p>
+                    <p id="p_testimonial">Testimonial</p>
+                    <p id="p_contact">Contact Me</p>
+                </div>
+                <div class="mobile_sign">
+                    <button id="mobile_header_button"><i class="fas fa-bars"></i></button>
+                </div>
+            </div>
+            <div class="mobile_head_div" id="mobile_head">
+                <i class="fas fa-times cancel_mobile" id="cancel_mobile_header"></i>
 
-     </div>
-     <div class="about">
-      <div class="about-me">
-        <div class="abt">
-          <h3>About Me</h3>
+                <div class="mobile_header_sub_container">
+                    <p id="p_mobile_home">Home</p>
+                    <p id="p_mobile_works">Works</p>
+                    <p id="p_mobile_testimonial">Testimonial</p>
+                    <p id="p_mobile_contact">Contact Me</p>
+                </div>
+            </div>
         </div>
-          <div class="hiet">
-            <p>BackEnd Developer with two years of learning experience in developing complex Web Apps and coming up with aesthetic Algorithm and functional web projects for personal project. </p>
-          </div>
-         
-      </div>
-     </div>
-        <div class="project">
-          <center><h2>My projects</h2></center>
-           <div class="myProject1">
-            <div class="project1">
-              <img src="./code2.png">
-               <br>
-              <div class="des">
-                <p>A basic chatting app, Built with Node js and html as the design pattern
-                  using Socket io no database
-                </p>
-                <br>
-                <div class="links-button">
-                  <br>
-                <a href="https://chatappy.herokuapp.com/">Visit Project</a>
-              </div>
-              </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="main_sub_container1">
+                <div class="sub_container1_text">
+                    <h1>Samson Adeboyega</h1>
+                    <p>Hello! Am a software developer and
+                        here is my portfolio website.
+                        Here you’ll learn about my journey
+                        as a software developer.</p>
+                    <a href="./img/Resume.docx" download>Download Resume</a>
+                </div>
+                <div class="sub_container1_img">
+                    <img src="./img/testifier_1.jpg" alt="" srcset="">
+                </div>
             </div>
-           </div>
-          
-        </div>
-        <div class="other-project">
-          <div class="pro">
-            <div class="img1">
-              <img src="./code3.png">
-              <br>
-              <p>An E-commerce Website, Suitable for crud project built with Nodejs, javascript, Rest Api, Html and Css 
-                
-              </p>
-              <br>
-              <a href="">Visit Site</a>
+            <div class="language_div">
+                <p>Worked With</p>
+                <div class="language_sub_div">
+                    <button>HTML</button>
+                    <button>CSS</button>
+                    <button>JAVASCRIPT</button>
+                    <button>Node JS</button>
+                    <button>PHP</button>
+                    <button>Mongodb</button>
+                    <button>Mysql</button>
+                    <button>Unit test</button>
+                </div>
             </div>
-          </div>
-          <div class="pro">
-            <div class="img1">
-              <img src="./code1.png">
-           
-              <p>FormattingText or links into Qrcode, Built with Node Js
-              </p>
-              <br>
-              <a href="(https://scangenerate.herokuapp.com/">Visit Site</a>
-            </div>
-          </div>
-          <div class="pro">
-            <div class="img1">
-              <img src="./code4.png">
-              <p>Task Manager: Keep task of your daily ativities
-              </p>
-              <br>
-              <a href="">Visit Site</a>
-            </div>
-          </div>
-          <div class="pro">
-            <div class="img1">
-              <img src="./code5.png">
-              <p>A basic chatting app, Built with Node js and html as the design pattern
-                using Socket io no database
-              </p>
-              <br>
-              <a href="https://tasknusk.netlify.app">Visit Site</a>
-            </div>
-          </div>
+            <div class="main_sub_container_2" id="case_study_container">
+                <div class="case_study_div">
+                    <p>Case Study</p>
+                    <h5>Back End Developer with one years of experience in writing complex Web Apps Algorithm  and coming up 
+                        with solution, and am also a fan of neat code, working with mvc and reuseable functions 
+                        <br>Here are some of my projects
+                    </h5>
+                </div>
+                <div class="projects_div2">
+                    <div class="project_sub_div">
+                        <h6>Chat System</h6>
+                        <p>Chat App</p>
+                        <h5>A webpage that allows you to join a group and chat with your peers
+                            <br> Built with node js using socket io and other labries
+                        </h5>
+                        <a href="http://chatappy.herokuapp.com/" target="_blank" class="case_study_a">View Case Study</a>
+                    </div>
+                    <div class="project_sub_div1">
+                        <img src="./img/code2.PNG" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="projects_div">
+                    <div class="project_sub_div1">
+                        <img src="./img/code3.PNG" alt="" srcset="">
+                    </div>
+                    <div class="project_sub_div">
+                        <h6>E Commerce</h6>
+                        <p>Crud System</p>
+                        <h5>A basic functional e-commerce website
+                            <br> Built with Node js using Rest Api and express js 
+                        </h5>
+                        <a href="http://github.com/reg-system" target="_blank" class="case_study_a">View Case
+                            Study</a>
+                    </div>
+                </div>
+                <div class="projects_div2">
+                    <div class="project_sub_div">
+                        <h6>Qr Code Generator</h6>
+                        <p>Qr Code</p>
+                        <h5>A Scanning application
+                            <br>A Suitable app used for encoding and decoding text links 
+                        </h5>
+                        <a href="https://scangenerate.herokuapp.com/" target="_blank" class="case_study_a">View Case
+                            Study</a>
+                    </div>
+                    <div class="project_sub_div1">
+                        <img src="./img/code1.PNG" alt="" srcset="">
+                    </div>
+                </div>
+                <div class="projects_div2">
+                    <div class="project_sub_div1">
+                        <img height="250px" src="./img/Mobile payments-cuate.svg" alt="" srcset="">
+                    </div>
+                    <div class="project_sub_div">
+                        <h6>Integration</h6>
+                        <p>Stripe Payment Gateway</p>
+                        <h5> A Functional payment gateway
+                            <br> Note this app is used for testing payment (test number:  4242-4242-4242-4242)
+                        </h5>
+                        <a href="http://snftland.netlify.app" target="_blank" class="case_study_a">View Case Study</a>
+                    </div>
+                </div>
+                <div class="projects_div">
+                    <div class="project_sub_div1">
+                        <img src="./img/code4.PNG" alt="" srcset="">
+                    </div>
+                    <div class="project_sub_div">
+                        <h6>Utility</h6>
+                        <p>Task manager</p>
+                        <h5> A functional task manager,  add and delete task
+                            <br> It also comes with functional countdown timer
+                        </h5>
+                        <a href="http://tasknusk.netlify.app" target="_blank" class="case_study_a">View Case Study</a>
+                    </div>
+                </div>
 
-         </div>
-        <div class="contact">
-          <center>Send me Feedback</center>
-          <div class="contact-flex-center">
-            <form>
-              <div class="form-input">
-                <div>
-                  <p>Enter Name:</p>
-                  <input class="input" type="text" placeholder="Enter your name">
-                </div>
-                <div>
-                  <p>Enter Message:</p>
-                  <input type="text" placeholder="Enter your Message">
-                </div>
-                <div class="btn-class">
-                  <button class="btn">Send Message</button>
-                </div>
-                <div class="icons">
-                  <div class="myIcons">
-                  <div>
-                  <a href="twitter.com/home/@flexible123"> <i class="fab fa-twitter"></i></a>
-                  </div>
-                  <div>
-                   <a href=""><i class="fab fa-facebook"></i></a>
-                  </div>
-                  <div>
-                   <a href="github.com/samyCode03"><i class="fab fa-github"></i></a>
-                  </div>
-                  <div>
-                  <a href=""><i class="fab fa-linkedin"></i></a>
-                  </div>
-                  <div>
-                   <a href="+2348120079624" type="tel"> <i class="fas fa-phone"></i></a>
-                  </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </form>
-          </div>
+            </div>
+            
+            
         </div>
-    </div>
-    <script src="./index.js"></script>
-  </body>
+        <div class="main_sub_container_3" id="testimonial_container">
+            <div class="testimonials_head_div">
+                <p>Testimonials</p>
+                <span>These are testiomonies from other developers like me</span>
+            </div>
+            <div class="testimonials_sub_div">
+                <div class="testimonies_div">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Obcaecati porro animi quod, ex voluptas quasi. Similique laborum ex reiciendis.
+                        Aut sint dolorem itaque ipsa ex cum quasi, doloremque consequatur rerum?
+                    </p>
+                    <div>
+                        <img src="./img/daniel_testimonial.jpg" class="test_img" alt="">
+                        <span>Daniel Adewale</span>
+                    </div>
+                </div>
+                <div class="testimonies_div">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Obcaecati porro animi quod, ex voluptas quasi. Similique laborum ex reiciendis.
+                        Aut sint dolorem itaque ipsa ex cum quasi, doloremque consequatur rerum?
+                    </p>
+                    <div>
+                        <img src="./img/femi_testimonials.jpg" class="test_img" alt="">
+                        <span>Femi Fatokun</span>
+                    </div>
+                </div>
+                <div class="testimonies_div">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Obcaecati porro animi quod, ex voluptas quasi. Similique laborum ex reiciendis.
+                        Aut sint dolorem itaque ipsa ex cum quasi, doloremque consequatur rerum?
+                    </p>
+                    <div>
+                        <img src="./img/myimg1.jpg" class="test_img" alt="">
+                        <span>Samson Onifade</span>
+                    </div>
+                </div>
+                <div class="testimonies_div">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Obcaecati porro animi quod, ex voluptas quasi. Similique laborum ex reiciendis.
+                        Aut sint dolorem itaque ipsa ex cum quasi, doloremque consequatur rerum?
+                    </p>
+                    <div>
+                        <img src="./img/omens.jpg" class="test_img" alt="">
+                        <span>Martins Omenudo</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_div">
+            <div class="footer_sub_div">
+                <div class="contact_div" id="contact_container">
+                    <div class="contacts_sub_div">
+                        <p>Contact Me</p>
+                        <input type="text" placeholder="Input Your Name">
+                        <input type="email" placeholder="Input Your email">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                        <button>Send Message</button>
+                        <span>Or connect through</span>
+                        <span>
+                            <a href="mailto:gbemilekeadeboyega@gmail.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+8120079624"><i class="fab fa-whatsapp"></i></a>
+                            <a href="https://free.facebook.com/samson.onifade.5891?" target="_blank"><i
+                                    class="fab fa-facebook"></i></a>
+                            <a href="https://twitter.com/flexible126" target="_blank"><i class="fab fa-twitter"></i></a>
+                            <a href="http://github.com/samyCode3" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="http://www.linkedin.com/in/" target="_blank"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </span>
+                    </div>
+                    <div class="img_div">
+                        <img src="./img/Contact us.gif" alt="" srcset="">
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer_last_div">
+                <span>2021 All Rights Reserved</span>
+            </div>
+        </div>
+    </footer>
+    <script>
+        document.getElementById('p_works').addEventListener('click', () => {
+            document.getElementById('case_study_container').scrollIntoView()
+        })
+        document.getElementById('p_testimonial').addEventListener('click', () => {
+            document.getElementById('testimonial_container').scrollIntoView()
+        })
+        document.getElementById('p_contact').addEventListener('click', () => {
+            document.getElementById('contact_container').scrollIntoView()
+        })
+        document.getElementById('mobile_header_button').addEventListener('click', () => {
+            document.getElementById('mobile_head').setAttribute('style', 'display:block')
+        })
+        document.getElementById('cancel_mobile_header').addEventListener('click', () => {
+            document.getElementById('mobile_head').setAttribute('style', 'display:none')
+        })
+        document.getElementById('p_mobile_home').addEventListener('click', () => {
+            document.getElementById('mobile_head').setAttribute('style', 'display:none')
+            document.getElementById('home').scrollIntoView()
+        })
+        document.getElementById('p_mobile_works').addEventListener('click', () => {
+            document.getElementById('mobile_head').setAttribute('style', 'display:none')
+            document.getElementById('case_study_container').scrollIntoView()
+        })
+        document.getElementById('p_mobile_testimonial').addEventListener('click', () => {
+            document.getElementById('mobile_head').setAttribute('style', 'display:none')
+            document.getElementById('testimonial_container').scrollIntoView()
+        })
+        document.getElementById('p_mobile_contact').addEventListener('click', () => {
+            document.getElementById('mobile_head').setAttribute('style', 'display:none')
+            document.getElementById('contact_container').scrollIntoView()
+        })
+    </script>
+</body>
+
 </html>
